@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#introleft h1, #introright h2 {
+    margin: 0; /* Remove default margins */
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
